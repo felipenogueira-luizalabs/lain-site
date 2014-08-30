@@ -1,10 +1,10 @@
-var http = require('http');
+﻿var http = require('http');
 var arquivo = require('fs');
 var url = require('url');
 
 var server = http.createServer(function(request, response){
 	response.writeHead(200, {"Content-Type": "text/html"});
-	response.write("<h1>Hello World!</h1>");
+	response.write("<h1>Hello Worlds!</h1>");
 	response.write("<br>");	
 	response.write("<h3>Aulas NodeJS</h3>");	
 
